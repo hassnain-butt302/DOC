@@ -9,7 +9,7 @@ const paragraph = () => {
 
   if (!editor) return null;
   return (
-    <div className="">
+    <div className="w-1.5">
       <div className="flex gap-2 mb-2">
         <button
           onClick={() => editor.chain().focus().toggleBold().run()}
